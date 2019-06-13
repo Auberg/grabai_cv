@@ -7,11 +7,15 @@ Several steps that are taken in order to fulfil the goal are as follow:
 1. Data analysis  
 Checking the distribution of downloaded train and test data. Generate validation data. EDA of the data Using T-SNE.
 
-2.Training Preparation  
+2. Training Preparation  
 Preparing the callbacks and data generator for the model.
 
-3.Model Benchmark  
+3. Model Benchmark  
 Creating base model benchmark that is not so complex and fast to train. InceptionV3 is used as the model benchmark.
 
 4. Further Model  
 Two more complex model will be created for final comparison, both of which are based on SeResNet50. Final model perform at 71.316% accuracy with testing data.
+
+
+Since the weights file is to big it is uploaded to: https://drive.google.com/drive/folders/1NUGXxnnaCUw0_n8mSXDbwOHmhKJGSyiL?usp=sharing.
+To use it please download the file, put it at the same directory as the jupyter file and extract it. Open the jupyter file for more detail. 
